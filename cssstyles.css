@@ -1,0 +1,61 @@
+#entry {
+  color: #f2f2f2;
+}
+body {
+  margin: 0%;
+  background-color: dimgray;
+  font-family: "Arial";
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: dimgrey;
+  border: 2px solid black;
+}
+.newtest{
+  position: relative;
+  left: 500px;
+  border: 3px solid #73AD21;
+}
+p {
+  position: absolute;
+  left: 0px;
+  width : 300px;
+  border: 3px solid #73AD21;
+  fill: #4CAF50;
+}
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: silver;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: gold;
+  color: black;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  right: 400px;
+}
+.pp{
+  position: absolute;
+  right: 300px;
+}

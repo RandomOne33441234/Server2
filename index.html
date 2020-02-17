@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<title>Welcome</title>
+<link rel="stylesheet" href="cssstyles.css">
+<script src="scripts.js"></script>
+<body>
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="news.html" >Darcy</a>
+  <a href="photos.html">Photos Of Da Big Lun</a>
+  <a href="login.html">Login Here</a>
+</div>
+<h2>Welcome to the page</h2>
+
+<img src="photos\main.jpg" style="float:right;height:300px;" width="300" >
+
+<button onclick="Twist()"> Twist</button>
+<button onclick="Stick()"> Stick </button>
+<button onclick="workplease()"> Clear</button>
+<fieldset>
+  <legend> Your Scores</legend>
+<fieldset>
+  <legend> card value</legend>
+  <div id="new"> </div>
+</fieldset>
+
+<fieldset>
+  <legend> total score</legend>
+  <div id="total"> </div>
+</fieldset>
+</fieldset>
+
+<fieldset>
+  <legend> Dealers Scores</legend>
+  <fieldset>
+    <legend> card value</legend>
+    <div id="newdealer"> </div>
+  </fieldset>
+
+  <fieldset>
+    <legend> total score</legend>
+    <div id="totaldealer"> </div>
+  </fieldset>
+</fieldset>
+
+
+<img style="display: none"  id="win" src="photos/loss.jpg" height="190" width="265"/>
+<img style="display: none" id="loss" src="photos/win.jpg" height="183" width="275"/>
+<fieldset>
+  <legend> the winner is .....</legend>
+  <div id="winner" >
+  undecided
+</div>
+</fieldset>
+</body>
+</html>
